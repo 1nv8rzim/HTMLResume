@@ -1,0 +1,87 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+html {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.25in;
+    padding-bottom: 0.25in;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    width: 8.5in;
+    height: 10.58325in;
+    color: #222;
+}
+
+.resume-container {
+    width: 100%;
+    margin-left: 0.15in;
+    margin-right: 0.15in;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 40pt;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+.contact {
+    font-size: 12pt;
+    margin-right: 0.25in;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.section-container {
+    margin-top: 0.1in;
+    margin-bottom: 0.15in;
+}
+
+.section-header {
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.subsection {
+    margin-left: 0.05in;
+}
+
+.subsection-header {
+    font-size: 14pt;
+}
+
+.subsection-item {
+    font-size: 12pt;
+    margin-left: 12pt;
+}
+
+.column-container {
+    display:flex;
+    flex-flow: row nowrap;
+}
+
+.column-left {
+    flex: 2;
+    margin-right: 0.1in;
+}
+
+.column-right {
+    flex: 1;
+}
